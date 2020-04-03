@@ -17,5 +17,12 @@ namespace ShoppingCart_Test1
 			Assert::AreEqual(expected, actual);
 		}
 
+		TEST_METHOD(TestModed2)
+		{
+			auto actual = helpers::isNumeric("1");
+			auto expected = true;
+			Assert::AreEqual(expected, actual);
+		}
+
 	};
 }
